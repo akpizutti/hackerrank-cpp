@@ -1,2 +1,2 @@
 # hackerrank-cpp
-Solutions to C++ problems from HackerRank
+Solutions to C++ challenges from HackerRank
