@@ -5,42 +5,43 @@ using namespace std;
 int main() {
     // Complete the code.
     int a,b;
-    cin >> a >> b;
-    for (int i = a; i < b; i++){
+    cin >> a;
+    cin >> b;
+    for (int i = a; i <= b; i++){
         switch(i){
             case 1: 
-                printf("one");
+                printf("one\n");
                 break;
             case 2: 
-                printf("two");
+                printf("two\n");
                 break;
             case 3: 
-                printf("three");
+                printf("three\n");
                 break;
             case 4: 
-                printf("four");
+                printf("four\n");
                 break;
             case 5: 
-                printf("five");
+                printf("five\n");
                 break;
             case 6: 
-                printf("six");
+                printf("six\n");
                 break;
             case 7: 
-                printf("seven");
+                printf("seven\n");
                 break;
             case 8: 
-                printf("eight");
+                printf("eight\n");
                 break;
             case 9: 
-                printf("nine");
+                printf("nine\n");
                 break;
             default: 
                 if(i % 2 == 0){
-                    printf("even");
+                    printf("even\n");
                 } 
                 else {
-                    printf("odd");
+                    printf("odd\n");
                 }
                 break;
             
